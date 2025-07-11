@@ -14,5 +14,5 @@ app.add_middleware(
 
 #Include routers
 app.include_router(resume.router,prefix="/api/resume")
-app.include_router(job.router,prefix="/api/job")
+app.include_router(job.router,prefix="/api/jobs")
 app.include_router(match.router,prefix="/api/match")
